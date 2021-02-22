@@ -8,9 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  index = gets.to_i - 1
+  input.to_i - 1
 end
 
-def move(board, index, user_marker = "X")
-  board[input] = user_marker
+def move(board, index, marker = "X")
+  board[indec] = marker
 end
